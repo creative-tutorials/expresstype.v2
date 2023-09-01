@@ -7,7 +7,7 @@ ExpressType is an npm package designed to streamline the development process for
 You can install ExpressType using npm:
 
 ```bash
-$npm install expresstype
+npm install expresstype
 ```
 
 ## Getting Started
@@ -19,7 +19,7 @@ Start by initializing your Express.js project with the following commands:
 ```bash
 mkdir my-express-app
 cd my-express-app
-$npm init -y
+npm init -y
 
 ```
 
@@ -28,7 +28,7 @@ $npm init -y
 Install ExpressType in your project:
 
 ```bash
-$npm install expresstype
+npm install expresstype
 ```
 
 ## TypeScript Configuration
