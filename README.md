@@ -4,32 +4,31 @@ ExpressType is an npm package designed to streamline the development process for
 
 ## Installation
 
-You can install ExpressType using npm:
+To get started with ExpressType, follow these steps:
+
+1. ### Clone the Repository
+
+Clone the ExpressType repository to your local machine using `git clone`:
 
 ```bash
-npm install expresstype
+git clone https://github.com/creative-tutorials/expresstype.v2.git
 ```
 
-## Getting Started
+2. ### Navigate to Your Project Directory
 
-### Project Initialization
-
-Start by initializing your Express.js project with the following commands:
+Change your current working directory to your Express.js project folder:
 
 ```bash
-mkdir my-express-app
-cd my-express-app
-npm init -y
-
+cd your-express-project
 ```
 
-## ExpressType Installation
+3. ### Install Dependencies
 
-Install ExpressType in your project:
+Install the required dependencies for this repo:
 
-```bash
-npm install expresstype
-```
+|  npm       |   yarn    | pnpm |
+|----------- |-----------|------|
+|   npm i    |  yarn i   |pnpm i|
 
 ## TypeScript Configuration
 
