@@ -1,8 +1,6 @@
 export default function dbJSON() {
-    return [
-        {
-            name: "test",
-        }
-    ];
+    return ({
+        name: "test",
+    });
 }
 //# sourceMappingURL=db.js.map

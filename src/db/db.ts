@@ -1,7 +1,7 @@
 export default function dbJSON() {
-  return [
+  return (
     {
       name: "test",
     }
-  ]
+  )
 }

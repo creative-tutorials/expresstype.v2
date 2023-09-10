@@ -14,12 +14,12 @@ Clone the ExpressType repository to your local machine using `git clone`:
 git clone https://github.com/creative-tutorials/expresstype.v2.git
 ```
 
-2. ### Navigate to Your Project Directory
+2. ### Navigate to The Project Directory
 
-Change your current working directory to your Express.js project folder:
+Change your current working directory to the project folder
 
 ```bash
-cd your-express-project
+cd expresstype.v2
 ```
 
 3. ### Install Dependencies
@@ -28,7 +28,7 @@ Install the required dependencies for this repo:
 
 |  npm       |   yarn    | pnpm |
 |----------- |-----------|------|
-|   npm i    |  yarn i   |pnpm i|
+|   npm install    |  yarn install   |pnpm install|
 
 ## TypeScript Configuration
 
