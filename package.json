@@ -1,7 +1,7 @@
 {
-  "name": "expresstype.v2",
+  "name": "api.forget",
   "private": false,
-  "version": "2.3.0",
+  "version": "0.0.0",
   "description": "express typescript package v2",
   "main": "build/index.js",
   "type": "module",
