@@ -32,7 +32,8 @@ Install the required dependencies for this repo:
 
 ## TypeScript Configuration
 
-Ensure that TypeScript is set up for your project. You can create a tsconfig.json file or use the existing one.
+> [!NOTE]  
+> Ensure that TypeScript is set up for your project. You can create a tsconfig.json file or use the existing one.
 
 ## License
 
