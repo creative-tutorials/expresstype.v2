@@ -1,6 +1,6 @@
 # ExpressType
 
-ExpressType is an npm package designed to streamline the development process for Express.js applications with TypeScript. It not only provides a ready-to-use Express setup but also includes MongoDB integration and Supabase setup to get you started quickly.
+ExpressType simplifies setting up TypeScript with Node.js by handling initialization and setup.
 
 ## Installation
 
