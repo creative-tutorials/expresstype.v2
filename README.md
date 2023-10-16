@@ -22,14 +22,6 @@ Change your current working directory to the project folder
 cd expresstype.v2
 ```
 
-3. ### Install Dependencies
-
-Install the required dependencies for this repo:
-
-|  npm       |   yarn    | pnpm |
-|----------- |-----------|------|
-|   npm install    |  yarn install   |pnpm install|
-
 ## TypeScript Configuration
 
 > [!NOTE]  
