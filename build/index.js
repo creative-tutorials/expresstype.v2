@@ -19,7 +19,8 @@ if (!port)
 app.get("/status", async (_, res) => {
     res.send("OK");
 });
-app.get("/json", async function (_, res) {
+app.get("/json", async (_, res) => {
+    //added type for Response from express
     res.json(dbJSON());
 });
 app.listen(port, () => {
