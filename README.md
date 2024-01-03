@@ -22,6 +22,23 @@ Change your current working directory to the project folder
 cd expresstype.v2
 ```
 
+3. ### Installation
+
+To make ExpressType work, you need to install the necessary dependencies. You can run the following command to install the dependencies:
+
+```bash
+npm install
+```
+
+OR
+
+```bash
+pnpm install
+```
+
+> [!TIP]  
+> Since expresstype.v2 uses pnpm, I recommend using pnpm to install dependencies to speed up the installation process.
+
 ## TypeScript Configuration
 
 > [!NOTE]  
@@ -29,4 +46,4 @@ cd expresstype.v2
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
