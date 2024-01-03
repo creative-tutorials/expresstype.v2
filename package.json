@@ -1,5 +1,5 @@
 {
-  "name": "api.forget",
+  "name": "expresstype.v2",
   "private": false,
   "version": "0.2.1",
   "description": "express typescript package v2",
@@ -22,7 +22,6 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.39.1",
     "@types/express-serve-static-core": "^4.17.41",
-    "api.forget": "link:",
     "axios": "^1.6.2",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
