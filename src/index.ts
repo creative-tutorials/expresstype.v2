@@ -19,9 +19,7 @@ app.use(urlencoded({ limit: "500kb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "500kb", extended: false }));
 const port = process.env.PORT;
 
-if (!process.env.PORT) {
-  throw new Error("Port not found");
-}
+if (!port) throw new Error("Port not found");
 
 app.get("/status", async (_, res) => {
   res.send("OK");
@@ -32,7 +30,5 @@ app.get("/json", async function (_, res) {
 });
 
 app.listen(port, () => {
-  console.log(
-    `🟢 [server] Application is online and listening on port ${port}.`
-  );
+  console.log(`🟢 [server] Online and listening on port ${port}.`);
 });

@@ -1,9 +1,9 @@
 {
   "name": "api.forget",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "express typescript package v2",
-  "main": "build/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "npx tsc",
