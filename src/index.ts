@@ -32,5 +32,5 @@ app.get("/json", async (_, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`🟢 [server] Online and listening on port ${port}.`);
+  console.log(`[server]: Online and listening on port ${port}.`);
 });

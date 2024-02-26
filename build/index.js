@@ -24,6 +24,6 @@ app.get("/json", async (_, res) => {
     res.json(dbJSON());
 });
 app.listen(port, () => {
-    console.log(`🟢 [server] Online and listening on port ${port}.`);
+    console.log(`[server]: Online and listening on port ${port}.`);
 });
 //# sourceMappingURL=index.js.map
