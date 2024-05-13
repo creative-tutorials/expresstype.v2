@@ -1,11 +1,10 @@
-import express, { Express, urlencoded, json } from "express";
+import express, { type Express, urlencoded, json } from "express";
+import { env } from "./src/env";
 import cors from "cors";
-import { Response } from "express";
+import { type Response } from "express";
 import bodyParser from "body-parser";
-import dotenv from "dotenv";
-import dbJSON from "./db/db.js";
-
-dotenv.config();
+import "dotenv/config";
+import dbJSON from "./src/db/db";
 
 const allowedOrigins = ["http://localhost:3000"];
 const corsOptions = {
@@ -18,7 +17,7 @@ app.use(cors(corsOptions));
 app.use(json({ limit: "500kb" }));
 app.use(urlencoded({ limit: "500kb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "500kb", extended: false }));
-const port = process.env.PORT;
+const port = env.PORT;
 
 if (!port) throw new Error("Port not found");
 
