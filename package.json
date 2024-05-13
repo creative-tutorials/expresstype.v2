@@ -6,9 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "start": "bun run --watch index.ts",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/index.js\""
+    "start": "bun run --watch index.ts"
   },
   "keywords": [
     "express",
