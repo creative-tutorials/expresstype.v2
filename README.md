@@ -1,17 +1,17 @@
-# Express Bun
+# ExpressBun
 
-Express Bun simplifies setting up TypeScript with Node.js by handling initialization and setup.
+ExpressBun is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bunjs.org/). You can easily get your API working in seconds with ExpressBun.
 
 ## Installation
 
-To get started with Express Bun, follow these steps:
+To get started with ExpressBun, follow these steps:
 
 1. ### Clone the Repository
 
-Clone the Express Bun repository to your local machine using `git clone`:
+Clone the ExpressBun repository to your local machine using `git clone`:
 
 ```bash
-git clone https://github.com/creative-tutorials/Express Bun.v2.git
+git clone https://github.com/creative-tutorials/expresstype.v2.git
 ```
 
 2. ### Navigate to The Project Directory
@@ -19,30 +19,24 @@ git clone https://github.com/creative-tutorials/Express Bun.v2.git
 Change your current working directory to the project folder
 
 ```bash
-cd Express Bun.v2
+cd expresstype.v2
 ```
 
 3. ### Installation
 
-To make Express Bun work, you need to install the necessary dependencies. You can run the following command to install the dependencies:
+To make ExpressBun work, you need to install the necessary dependencies. You can run the following command to install the dependencies:
 
 ```bash
-npm install
-```
-
-OR
-
-```bash
-pnpm install
+bun install
 ```
 
 > [!TIP]  
-> Since Express Bun.v2 uses pnpm, I recommend using pnpm to install dependencies to speed up the installation process.
+> I recommend using the `bun install` command to install dependencies. It is much faster and easier than using `npm install` or `yarn install`.
 
 ## TypeScript Configuration
 
 > [!NOTE]  
-> Ensure that TypeScript is set up for your project. You can create a tsconfig.json file or use the existing one.
+> Ensure that TypeScript is set up for your project. You can edit the `tsconfig.json` file to configure TypeScript for your project.
 
 ## License
 
