@@ -1,6 +1,6 @@
 # ExpressBun
 
-ExpressBun is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bunjs.org/). You can easily get your API working in seconds with ExpressBun.
+ExpressBun is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bun.sh). You can easily get your API working in seconds with ExpressBun.
 
 ## Installation
 
