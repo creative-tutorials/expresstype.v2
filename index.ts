@@ -25,11 +25,10 @@ app.get("/status", async (_, res: Response) => {
   res.send("OK");
 });
 
-app.get("/json", async (_, res: Response) => {
-  //added type for Response from express
+app.get("/db", async (_, res: Response) => {
   res.json(dbJSON());
 });
 
 app.listen(port, () => {
-  console.log(`[server]: Online and listening on port ${port}.`);
+  console.log(`🟢 Listening on port ${port}.`);
 });
