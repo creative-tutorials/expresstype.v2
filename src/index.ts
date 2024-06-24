@@ -1,10 +1,10 @@
 import express, { type Express, urlencoded, json } from "express";
-import { env } from "./src/env";
+import { env } from "./env";
 import cors from "cors";
 import { type Response } from "express";
 import bodyParser from "body-parser";
 import "dotenv/config";
-import dbJSON from "./src/db/db";
+import dbJSON from "./db/db";
 
 const allowedOrigins = ["http://localhost:3000"];
 const corsOptions = {
@@ -30,5 +30,5 @@ app.get("/db", async (_, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`🟢 Listening on port ${port}.`);
+  console.log(`Listening on port http://localhost:${port}.`);
 });
