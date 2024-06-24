@@ -1,6 +1,6 @@
 # ExpressBun
 
-ExpressBun is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bun.sh). You can easily get your API working in seconds with ExpressBun.
+ExpressBun formerly knows as ExpressType is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bun.sh). You can easily get your API working in seconds with ExpressBun.
 
 ## Installation
 
@@ -11,7 +11,7 @@ To get started with ExpressBun, follow these steps:
 Clone the ExpressBun repository to your local machine using `git clone`:
 
 ```bash
-git clone https://github.com/creative-tutorials/expresstype.v2.git
+git clone https://github.com/creative-tutorials/expresstype.v2.git my-express-app
 ```
 
 2. ### Navigate to The Project Directory
