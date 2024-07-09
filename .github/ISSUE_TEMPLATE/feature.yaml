@@ -1,0 +1,61 @@
+name: 🚀 Features
+description: Improvement or fixes to the app or docs
+title: "[Feature]: <description>"
+labels: ["enhancement", "features"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. skywalker@email.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description
+      description: A brief description of the feature you intend to add
+      placeholder: Describe the feature
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Additional information
+      description: More information about the feature
+      placeholder: Please add additional information, enligten us about the feature
+      render: shell
+    validations:
+      required: false
+  - type: dropdown
+    id: related
+    attributes:
+      label: Is the feature related to the following
+      description: More information about the feature
+      options:
+        - A bug fix
+        - New feature
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+      placeholder: Screenshot
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/creative-tutorials/shopercase/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
