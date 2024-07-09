@@ -1,14 +1,16 @@
 {
   "name": "expresstype.v2",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "express typescript package v2",
   "main": "build/index.js",
   "type": "module",
   "scripts": {
     "build": "bunx --bun tsc",
     "start": "node build/index.js",
-    "dev": "concurrently \"bunx --bun tsc --watch\" \"bun run --watch build/index.js\"",
+    "dev": "bun run ./script.js",
+    "tsc-watch": "bunx --bun tsc --watch",
+    "build-watch": "bun run --watch build/index.js",
     "test": "bun test"
   },
   "keywords": [
@@ -21,32 +23,33 @@
   "author": "creative-tutorials",
   "license": "MIT",
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.7",
+    "@supabase/supabase-js": "^2.44.3",
     "@t3-oss/env-core": "^0.10.1",
-    "@types/express-serve-static-core": "^4.17.43",
-    "axios": "^1.6.7",
+    "@types/express-serve-static-core": "^4.19.5",
+    "axios": "^1.7.2",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.18.2",
-    "express-rate-limit": "^7.1.5",
-    "mongodb": "^6.3.0",
-    "uuid": "^9.0.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "mongodb": "^6.8.0",
+    "uuid": "^10.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "@types/bcrypt": "^5.0.2",
     "@types/body-parser": "^1.19.5",
+    "@types/bun": "^1.1.6",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
-    "@types/node": "^20.11.20",
-    "@types/qs": "^6.9.11",
-    "@types/uuid": "^9.0.8",
+    "@types/node": "^20.14.10",
+    "@types/qs": "^6.9.15",
+    "@types/uuid": "^10.0.0",
     "concurrently": "^8.2.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.4",
+    "npm-run-all": "^4.1.5"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.3"
   }
 }
