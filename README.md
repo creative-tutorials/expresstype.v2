@@ -52,6 +52,14 @@ To clone the ExpressType repository using Bun, run the following command:
 bun create github.com/creative-tutorials/expresstype.v2 my-express-app
 ```
 
+1. ### Cloning a specifc version
+
+To clone a specific version of the ExpressType repository, you can use the following command:
+
+```bash
+git clone -b v1.0.3 https://github.com/creative-tutorials/expresstype.v2.git my-express-app
+```
+
 > [!TIP]
 > When you run the `bun create` command, Bun will automatically install the necessary dependencies and set up the project structure for you.
 
