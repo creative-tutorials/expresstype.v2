@@ -1,10 +1,10 @@
 # ExpressType
 
-ExpressType is an open-source API template for [Express](https://expressjs.com/) and [Bun](https://bun.sh). ExpressType makes it easy to create and deploy APIs in seconds.
+ExpressType is an open-source API template for [Express](https://expressjs.com/) and [Typescript](https://typescriptlang.org). ExpressType makes it easy to create and deploy APIs in seconds. ExpressType
 
 ## How It Works
 
-ExpressType is a template that provides a basic structure for building APIs with Express and Bun. It includes a set of predefined routes, middleware, and utilities that make it easy to get started with API development. I have also included a `vercel.json` file, this is the configuration file for Vercel that is used to deploy the API to the cloud.
+ExpressType is a template that provides a basic structure for building APIs with Express and Typescript. It includes a set of predefined routes, middleware, and utilities that make it easy to get started with API development. I have also included a `vercel.json` file, this is the configuration file for Vercel that is used to deploy the API to the cloud.
 
 ### FAQ
 
@@ -94,6 +94,16 @@ bun install
 ### Authentication
 
 To implement authentication in your application, I recommend using the `clerk`. Clerk is a simple and secure authentication solution that provides a robust set of features for building secure and scalable applications. To authenticate your requests, you can use the `@clerk/clerk-sdk-node` package. This package provides a set of functions that you can use to authenticate requests and manage user sessions. See more information about [Authenticating your API Requests](https://clerk.com/blog/how-to-authenticate-api-requests-with-clerk-express)
+
+> [!IMPORTANT]
+
+If you have issues deploying your API to Vercel, you should check the following:
+
+- Make sure you have the latest version of the Vercel CLI installed.
+- Check if your `build` folder is published to Github, and it's not ignored in your `.gitignore` file.
+- If you are importing a function from a file, make sure it ends with `.js` and not `.ts`.
+  ![alt text](image.png)
+  ![alt text](image-1.png)
 
 ## License
 
