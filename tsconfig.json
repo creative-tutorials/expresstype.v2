@@ -100,7 +100,6 @@
   },
   "include": [
     "src/**/*",
-    "script.ts"
   ],
   "exclude": [
     "node_modules"
