@@ -1,7 +1,6 @@
 import express, { urlencoded, json } from "express";
 import { env } from "./env";
 import cors from "cors";
-import {} from "express";
 import bodyParser from "body-parser";
 import "dotenv/config";
 import dbJSON from "./db/db";
