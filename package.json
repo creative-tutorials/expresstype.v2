@@ -1,14 +1,16 @@
 {
   "name": "expresstype.v2",
   "private": false,
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "express typescript package v2",
   "main": "build/index.js",
   "type": "module",
   "scripts": {
     "build": "bunx --bun tsc",
     "start": "node build/index.js",
-    "dev": "concurrently \"bunx --bun tsc --watch\" \"bun run --watch build/index.js\"",
+    "dev": "bun run ./script.js",
+    "tsc-watch": "bunx --bun tsc --watch",
+    "build-watch": "bun run --watch build/index.js",
     "test": "bun test"
   },
   "keywords": [

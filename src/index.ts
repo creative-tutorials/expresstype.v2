@@ -1,10 +1,10 @@
 import express, { type Express, urlencoded, json } from "express";
-import { env } from "./env";
+import { env } from "./env.js";
 import cors from "cors";
 import { type Response } from "express";
 import bodyParser from "body-parser";
 import "dotenv/config";
-import dbJSON from "./db/db";
+import dbJSON from "./db/db.js";
 
 const allowedOrigins = ["http://localhost:3000"];
 const corsOptions = {
