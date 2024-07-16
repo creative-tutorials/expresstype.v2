@@ -96,8 +96,7 @@ bun install
 To implement authentication in your application, I recommend using the `clerk`. Clerk is a simple and secure authentication solution that provides a robust set of features for building secure and scalable applications. To authenticate your requests, you can use the `@clerk/clerk-sdk-node` package. This package provides a set of functions that you can use to authenticate requests and manage user sessions. See more information about [Authenticating your API Requests](https://clerk.com/blog/how-to-authenticate-api-requests-with-clerk-express)
 
 > [!IMPORTANT]
-
-If you have issues deploying your API to Vercel, you should check the following:
+> If you have issues deploying your API to Vercel, you should check the following:
 
 - Make sure you have the latest version of the Vercel CLI installed.
 - Check if your `build` folder is published to Github, and it's not ignored in your `.gitignore` file.
