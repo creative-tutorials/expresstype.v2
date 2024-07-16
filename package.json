@@ -8,7 +8,7 @@
   "scripts": {
     "build": "bunx --bun tsc",
     "start": "node build/src/index.js",
-    "dev": "bun run build/script.js",
+    "dev": "npm-run-all --parallel tsc-watch build-watch",
     "tsc-watch": "bunx --bun tsc --watch",
     "build-watch": "bun run --watch build/src/index.js",
     "test": "bun test"
