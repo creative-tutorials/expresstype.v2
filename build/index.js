@@ -1,5 +1,6 @@
 import express, { urlencoded, json } from "express";
 import { env } from "./env.js";
+import { limiter } from "./middlewares/limiter.js";
 import cors from "cors";
 import bodyParser from "body-parser";
 import "dotenv/config";
@@ -13,6 +14,7 @@ app.use(cors(corsOptions));
 app.use(json({ limit: "500kb" }));
 app.use(urlencoded({ limit: "500kb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "500kb", extended: false }));
+app.use(limiter); // adding rate limiting middleware
 const port = parseInt(env.PORT) || 5500;
 if (!port)
     throw new Error("Port not found");
