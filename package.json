@@ -3,14 +3,14 @@
   "private": false,
   "version": "1.1.1",
   "description": "express typescript package v2",
-  "main": "build/index.js",
+  "main": "build/src/index.js",
   "type": "module",
   "scripts": {
     "build": "bunx --bun tsc",
-    "start": "node build/index.js",
-    "dev": "bun run ./script.js",
+    "start": "node build/src/index.js",
+    "dev": "bun run build/script.js",
     "tsc-watch": "bunx --bun tsc --watch",
-    "build-watch": "bun run --watch build/index.js",
+    "build-watch": "bun run --watch build/src/index.js",
     "test": "bun test"
   },
   "keywords": [

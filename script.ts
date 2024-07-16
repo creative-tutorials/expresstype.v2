@@ -15,8 +15,8 @@ if (env.PORT) {
 console.log(`${chalk.green("✓")} ${chalk.white("Starting...\n")}`);
 
 // Function to run a command and print its output
-function runCommand(command, name) {
-  return new Promise((resolve, reject) => {
+function runCommand(command: string, name: string) {
+  return new Promise<void>((resolve, reject) => {
     const process = exec(command);
 
     process.stdout?.on("data", (data) => {
@@ -40,7 +40,7 @@ function runCommand(command, name) {
 // Run the dev commands in parallel
 Promise.all([
   runCommand("bunx --bun tsc --watch", "tsc-watch"),
-  runCommand("bun run --watch build/index.js", "build-watch"),
+  runCommand("bun run --watch build/src/index.js", "build-watch"),
 ])
   .then(() => {
     console.log(chalk.green("\n ✓ Ready"));
