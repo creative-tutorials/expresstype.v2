@@ -13,7 +13,7 @@ app.use(cors(corsOptions));
 app.use(json({ limit: "500kb" }));
 app.use(urlencoded({ limit: "500kb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "500kb", extended: false }));
-const port = env.PORT;
+const port = env.PORT || 5500;
 if (!port)
     throw new Error("Port not found");
 app.get("/status", async (_, res) => {
