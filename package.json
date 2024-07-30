@@ -1,7 +1,7 @@
 {
   "name": "expresstype.v2",
   "private": false,
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "express typescript package v2",
   "main": "build/index.js",
   "type": "module",
